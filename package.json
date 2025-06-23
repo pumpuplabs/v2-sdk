@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/v2-sdk",
+  "name": "@pumpup/v2-sdk",
   "license": "MIT",
   "version": "3.0.1",
   "description": "🛠 An SDK for building applications on top of Uniswap V2",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "https://github.com/pumpuplabs/sdk-core.git",
+    "@pumpup/sdk-core": "^3.0.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },

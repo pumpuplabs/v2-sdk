@@ -1438,6 +1438,18 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@pumpup/sdk-core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@pumpup/sdk-core/-/sdk-core-3.0.1.tgz#caa53f24b56a6de20b5dc4d47389bca77341b946"
+  integrity sha512-8XAHu2UMKM+RxtNax/IyRIQNpDh+W0NF2rOGlDkUna3lWptURTg6exG/DAR/u88yPu4r8VdPPO6jihrL+QBz7A==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@rollup/plugin-babel@^5.1.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.0.tgz#9cb1c5146ddd6a4968ad96f209c50c62f92f9879"
@@ -1705,17 +1717,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@uniswap/sdk-core@https://github.com/pumpuplabs/sdk-core.git":
-  version "3.0.1"
-  resolved "https://github.com/pumpuplabs/sdk-core.git#ac04cfd071842f842cb4431f6a8826315bd619d9"
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
 
 "@uniswap/v2-core@^1.0.1":
   version "1.0.1"
